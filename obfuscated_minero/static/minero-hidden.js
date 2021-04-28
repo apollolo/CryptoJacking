@@ -4,7 +4,6 @@
     MINER_URL: "https://minero.cc/html/miner.html",
     BLANK_MINER_URL: "https://minero.cc/html/blank-miner.html",
     WEBSOCKET_SHARDS: [["wss://worker.minero.cc"]],
-    // WEBSOCKET_SHARDS: [["http://localhost:8080"]],
     DONATE_WIDGET_URL: "https://minero.cc/widget/donate",
   }),
   (function (e) {
