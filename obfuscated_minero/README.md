@@ -1,0 +1,2 @@
+Need to visit the page with this URL `http://localhost:8081/?key=c6db676b2104b269942d5dbbf567819b&user=&throttle=&threads=12`.
+This allows you to configure parameters in the URL. Previously, it would default to 12 threads and no throttling.
